@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")  # pre-made model
-cap = cv2.VideoCapture(0)                                                   # turn on webcam
+cap = cv2.VideoCapture(0)                                                   # turn on webcam    #"0" is your webcam. if you are using an external webcam, change the number.
 cap.set(3,640)                                                              # set Width
 cap.set(4,480)                                                              # set Height
 
